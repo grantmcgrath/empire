@@ -6,8 +6,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './styles/index.css';
 
 //Components
-import Home from './components/Home';
 import Layout from "./components/Layout";
+import Home from './components/Home';
+import AvailableProperties from './components/AvailableProperties';
+import CommercialProperties from './components/CommercialProperties';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -15,6 +17,8 @@ ReactDOM.render(
     <Layout>
      <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/availableproperties" component={AvailableProperties} />
+        <Route exact path="/commercialproperties" component={CommercialProperties} />
       </Switch>
     </Layout>
   </BrowserRouter>

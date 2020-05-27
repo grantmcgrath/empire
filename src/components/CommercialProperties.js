@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import '../styles/Home.css';
 
 
-class Home extends Component {
+class CommercialProperties extends Component {
   render() {
     return(
       <div id="Home" className="center_container">
-        <p>Main Page</p>
+        <p>Commercial Properties</p>
       </div>
     )
   }
 }
 
-export default Home;
+export default CommercialProperties;
