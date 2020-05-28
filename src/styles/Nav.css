@@ -6,14 +6,44 @@ a {
 nav {
     display: flex;
     flex-direction: row;
-/*    padding: 20PX; */
+    padding: 20PX;
     align-content: center;
+}
+
+p {
+    margin: 0;
+    color: #f4f4f4;
 }
 
 .container {
     height: 100%;
     width: 80%;
     margin: 0 auto;
+}
+
+.empire_prop {
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #835281;
+    height: 51px;
+}
+
+.home_link {
+    color: #f4f4f4;
+}
+
+.footer {
+    background-color: #b6ae70;
+    height: 5px;
 }
 
 .nav_1 {
@@ -27,3 +57,23 @@ nav {
 /* .nav_3 {
     
 } */
+
+.nav_bar {
+    background-color: #caba7c;
+}
+
+.phone {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.phone a {
+    font-family: monospace;
+    font-size: large;
+    color: #f4f4f4;
+}
+
+.purple {
+    background-color: #835281;
+    height: 10px;
+}
